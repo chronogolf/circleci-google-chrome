@@ -5,6 +5,6 @@ To force the use of the latest stable version of Chrome on Circle CI, define tho
 ```
 dependencies:
   pre:
-    - curl -s https://raw.githubusercontent.com/chronogolf/circleci-update-google-chrome/master/use_chrome_stable_version.sh | bash
+    - curl -s https://raw.githubusercontent.com/chronogolf/circleci-google-chrome/master/use_chrome_stable_version.sh | bash
 ```
 
